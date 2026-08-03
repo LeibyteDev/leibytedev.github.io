@@ -76,16 +76,3 @@ footer p{
     font-size: 17px;
     font-weight: 500;
 }
-
-html,body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-body{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
