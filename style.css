@@ -17,10 +17,6 @@ body{
   background-position: center top;
   background-color: rgb(15, 15, 15);
   background-size: cover;
-
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 .avatar{
@@ -84,12 +80,6 @@ footer p{
     font-weight: 500;
 }
 
-html,body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
 .content{
   flex: 1 0 auto; 
 }
