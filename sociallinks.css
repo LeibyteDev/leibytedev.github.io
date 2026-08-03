@@ -1,7 +1,7 @@
 /* DISCLAIMER: AI was used to generate these social link buttons.
 I simply could not get my head around them to look the way they wanted... so... yeah. Will do for now.*/
 
-.socialLinks{
+.sociallinks{
     display: flex;
     justify-content: center;
     flex-wrap: wrap; gap: 12px;
@@ -11,7 +11,7 @@ I simply could not get my head around them to look the way they wanted... so... 
     padding-bottom: 20px;
 }
 
-.socialBtn{
+.socialbtn{
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -24,11 +24,11 @@ I simply could not get my head around them to look the way they wanted... so... 
     border: 1px solid transparent;
     transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
 }
-.socialBtn:hover{
+.socialbtn:hover{
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-.socialIcon{
+.socialicon{
     height: 24px;
     width: auto;
     object-fit: contain;
@@ -68,7 +68,7 @@ I simply could not get my head around them to look the way they wanted... so... 
 }
 
 @media (max-width: 600px){
-  .socialLinks{
+  .sociallinks{
     flex-direction: column;
     align-items: center;
     width: 90%;
@@ -76,7 +76,7 @@ I simply could not get my head around them to look the way they wanted... so... 
     margin: 30px auto;
   }
 
-  .socialBtn{
+  .socialbtn{
     width: 100%;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ I simply could not get my head around them to look the way they wanted... so... 
     box-sizing: border-box;
   }
 
-  .socialIcon{
+  .socialicon{
     height: 22px;
     width: auto;
     max-width: 30px;
