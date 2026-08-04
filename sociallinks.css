@@ -29,8 +29,8 @@ I simply could not get my head around them to look the way they wanted... so... 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .socialicon{
-    height: 24px;
-    width: auto;
+    height: auto;
+    width: 25px;
     object-fit: contain;
     display: block;
     flex-shrink: 0;
