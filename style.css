@@ -55,10 +55,10 @@ body{
 }
 .textbox2{
   margin: 20px auto;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   color:#ffffff;
   background-color: rgb(20, 20, 20);
@@ -66,6 +66,17 @@ body{
   font-weight: 350;
   border-top: 2px solid rgba(50, 50, 50, 0.2);
   border-bottom: 2px solid rgba(50, 50, 50, 0.2);
+}
+.textbox3{
+  margin: 20px auto;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+  color:rgb(225, 225, 225);
+  font-size: 20px;
+  font-weight: 350;
 }
 
 a{
