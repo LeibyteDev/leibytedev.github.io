@@ -100,4 +100,15 @@ html{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scrollbar-gutter: auto;
+}
+
+@media (max-width: 600px){
+  html, body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  html::-webkit-scrollbar, body::-webkit-scrollbar{
+    display: none;
+  }
 }
