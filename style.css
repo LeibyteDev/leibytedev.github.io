@@ -17,11 +17,22 @@ body{
   background-position: center top;
   background-color: rgb(15, 15, 15);
   background-size: cover;
-  
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   min-height: 100dvh;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.content{
+  flex: 1 0 auto; 
 }
 
 .avatar{
@@ -33,7 +44,6 @@ body{
   max-width: 80%;
   height: auto;
 }
-
 .logo{
   position: absolute;
   top: 20px;
@@ -69,64 +79,54 @@ body{
 }
 .textbox3{
   margin: 20px auto;
-  padding-top: 10px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   text-align: center;
   color:rgb(225, 225, 225);
   font-size: 20px;
-  font-weight: 350;
+  font-weight: 300;
 }
 
 a{
   color:#4a86e8;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 footer{
-    color: rgb(200, 200, 200);
-    text-align: center;
-    padding: 5px;
-
-    margin-top: auto;
-    width: 100%;
+  color: rgb(200, 200, 200);
+  text-align: center;
+  padding: 5px;
+  margin-top: auto;
+  width: 100%;
 }
 footer p{
-    font-size: 17px;
-    font-weight: 500;
-    margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
 }
 
-.content{
-  flex: 1 0 auto; 
-}
-
-*, *::before, *::after{
+*,*::before,*::after{
   box-sizing: border-box;
 }
 
 @media (max-width: 600px){
-  html, body{
+  html,body{
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  html::-webkit-scrollbar, body::-webkit-scrollbar{
+  html::-webkit-scrollbar,body::-webkit-scrollbar{
     display: none;
   }
   .textbox{
-  padding-left: 30px;
-  padding-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .textbox2{
     padding-left: 30px;
     padding-right: 30px;
   }
-}
-
-html, body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
 }
