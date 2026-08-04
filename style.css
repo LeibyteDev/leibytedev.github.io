@@ -46,8 +46,8 @@ body{
 .textbox{
   margin: 20px auto;
   padding-top: 75px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 30px;
   text-align: center;
   color:#ffffff;
@@ -56,8 +56,8 @@ body{
 .textbox2{
   margin: 20px auto;
   padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 50px;
   text-align: center;
   color:#ffffff;
@@ -101,6 +101,14 @@ footer p{
   }
   html::-webkit-scrollbar, body::-webkit-scrollbar{
     display: none;
+  }
+  .textbox{
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  .textbox2{
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 

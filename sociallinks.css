@@ -33,6 +33,7 @@ I simply could not get my head around them to look the way they wanted... so... 
     width: auto;
     object-fit: contain;
     display: block;
+    flex-shrink: 0;
 }
 
 .discord{
