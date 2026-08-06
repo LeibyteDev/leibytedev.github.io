@@ -1,8 +1,17 @@
+/* FONT */
 @font-face{
   font-family: 'Montserrat';
   src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 
+/* BODY STYLING */
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 body{
   background-image: linear-gradient(
       to bottom,
@@ -22,19 +31,11 @@ body{
   min-height: 100vh;
   min-height: 100dvh;
 }
-
-html,body{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .content{
   flex: 1 0 auto; 
 }
 
+/* AVATAR AND LOGO STYLING */
 .avatar{
   display: block;
   margin-left: auto;
@@ -53,6 +54,7 @@ html,body{
   transform: translateX(-50%)
 }
 
+/* TEXTBOXES STYLING */
 .textbox{
   margin: 20px auto;
   padding-top: 75px;
@@ -95,6 +97,7 @@ html,body{
   }
 }
 
+/* FOOTER STYLING */
 footer{
   color: rgb(200, 200, 200);
   text-align: center;
@@ -108,10 +111,7 @@ footer p{
   margin: 0;
 }
 
-*,*::before,*::after{
-  box-sizing: border-box;
-}
-
+/* OPTIMISATION FOR MOBILE DEVICES/PORTRAIT/SMALLER WINDOWS */
 @media (max-width: 600px){
   html,body{
     -ms-overflow-style: none;
@@ -120,12 +120,12 @@ footer p{
   html::-webkit-scrollbar,body::-webkit-scrollbar{
     display: none;
   }
-  .textbox{
+  .textbox,.textbox2,.textbox3{
     padding-left: 30px;
     padding-right: 30px;
   }
-  .textbox2{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+}
+
+*,*::before,*::after{
+  box-sizing: border-box;
 }
