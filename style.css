@@ -54,7 +54,7 @@ body{
   transform: translateX(-50%)
 }
 
-/* TEXTBOXES STYLING */
+/* TEXTBOX STYLING */
 .textbox{
   margin: 20px auto;
   padding-top: 75px;
@@ -64,20 +64,6 @@ body{
   text-align: center;
   color:#ffffff;
   font-size: 25px;
-}
-.textbox2{
-  margin: 20px auto;
-  padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 30px;
-  text-align: center;
-  color:#ffffff;
-  background-color: rgb(20, 20, 20);
-  font-size: 22px;
-  font-weight: 350;
-  border-top: 2px solid rgba(50, 50, 50, 0.2);
-  border-bottom: 2px solid rgba(50, 50, 50, 0.2);
 }
 
 /* FOOTER STYLING */
