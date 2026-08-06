@@ -60,7 +60,7 @@ body{
   padding-top: 75px;
   padding-left: 100px;
   padding-right: 100px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   text-align: center;
   color:#ffffff;
   font-size: 25px;
@@ -78,23 +78,6 @@ body{
   font-weight: 350;
   border-top: 2px solid rgba(50, 50, 50, 0.2);
   border-bottom: 2px solid rgba(50, 50, 50, 0.2);
-}
-.textbox3{
-  margin: 20px auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 30px;
-  text-align: center;
-  color:rgb(225, 225, 225);
-  font-size: 17px;
-  font-weight: 300;
-  a{
-    color:#4a86e8;
-    text-decoration: none;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
 }
 
 /* FOOTER STYLING */
