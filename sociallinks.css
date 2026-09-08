@@ -24,7 +24,7 @@
     transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
 }
 .socialbtn:hover{
-    transform: translateY(-3px);
+    transform: translateY(-1px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .socialicon{
